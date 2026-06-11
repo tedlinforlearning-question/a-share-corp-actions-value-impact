@@ -98,7 +98,8 @@ python scripts/extract_financials.py 招股书.pdf  # 提取 PDF 数据
 
 ```
 提供文件 → 前置检查 → 可比公司 → 独立DCF
-→ 标的FCFF + 协同效应 → 备考合并DCF → 敏感性分析
+→ 业绩承诺检查（条件启用）→ 标的FCFF + 协同效应
+→ 配套募资分析（条件启用）→ 备考合并DCF → 敏感性分析
 ```
 
 **所需报告：**
@@ -161,7 +162,7 @@ python scripts/extract_financials.py 招股书.pdf  # 提取 PDF 数据
 |:---|:---|:---|
 | 通用模板 | 基础 DCF 结构 | [下载](https://raw.githubusercontent.com/tedlinforlearning-question/a-share-corp-actions-value-impact/main/excel_templates/DCF_Model_Template.xlsx) |
 | IPO 专用 | 募投项目 + 在建工程 | [下载](https://raw.githubusercontent.com/tedlinforlearning-question/a-share-corp-actions-value-impact/main/excel_templates/DCF_Model_Template_IPO.xlsx) |
-| 并购买方 | 标的 FCFF + 发股/现金 | [下载](https://raw.githubusercontent.com/tedlinforlearning-question/a-share-corp-actions-value-impact/main/excel_templates/DCF_Model_Template_MA_Buy.xlsx) |
+| 并购买方 | 标的 FCFF + 发股/现金 + 业绩承诺 + 配套募资（条件启用，最多12 Sheet） | [下载](https://raw.githubusercontent.com/tedlinforlearning-question/a-share-corp-actions-value-impact/main/excel_templates/DCF_Model_Template_MA_Buy.xlsx) |
 | 并购卖方 | 扣非分离 + 出售对比 | [下载](https://raw.githubusercontent.com/tedlinforlearning-question/a-share-corp-actions-value-impact/main/excel_templates/DCF_Model_Template_MA_Sale.xlsx) |
 
 ### 再融资分析模板
@@ -221,6 +222,7 @@ A股IPO-重组-再融资-DCF估值/
 
 | 版本 | 日期 | 更新内容 |
 |:---|:---|:---|
+| v1.3.0 | 2026-06 | 新增业绩承诺可行性分析（压力测试+增长驱动力拆解）；新增配套募资子表（双重摊薄+募投DCF+合并调整）；M&A购买流程9步→11步；Sheet结构8→12（条件扩展） |
 | v1.2.0 | 2026-06 | 新增收购+配套融资场景（标的DCF+备考合并+协同量化）；六场景决策树完整 |
 | v1.1.0 | 2026-06 | 新增再融资两大场景（纯补流摊薄 + 补流募投DCF）；五场景决策树；云端依赖改可选；脱敏 |
 | v1.0.0 | 2026-05 | 初始版本，覆盖 IPO/M&A置入/M&A出售 三种场景 |
