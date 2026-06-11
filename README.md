@@ -2,7 +2,7 @@
 
 > 投行实务级 IPO、并购重组与再融资 DCF 估值建模工作流，可直接在 WorkBuddy / CodeBuddy 中使用。
 
-[![Version](https://img.shields.io/badge/version-1.2.0-blue)](./SKILL.md)
+[![Version](https://img.shields.io/badge/version-1.3.0-blue)](./SKILL.md)
 
 ---
 
@@ -29,6 +29,8 @@
 - 📈 **可比公司分析**：βU 去杠杆矩阵 + WACC 计算（支持 Wind/AKShare/手动输入）
 - 🧮 **完整 DCF 建模**：独立DCF → 募投/标的FCFF → 备考合并 → 敏感性分析
 - 📋 **Excel 自动生成**：专业投行格式，含样式规范、假设清单、敏感性矩阵
+- ⚠️ **业绩承诺可行性分析**（v1.3 新增）：压力测试 + 增长驱动力拆解 + 触发概率判断
+- 💰 **配套募资子表**（v1.3 新增）：双重摊薄 + 募投项目独立DCF + 含募投合并调整
 
 ---
 
