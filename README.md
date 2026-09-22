@@ -6,6 +6,8 @@
 
 ## What it does
 
+Note: The project is developed primarily in Chinese, as it is designed specifically for the A-share market, including PRC regulatory requirements and local valuation practices.
+
 Covers six scenarios, with a guided Q&A decision tree:
 
 | Scenario | What is valued | Core method |
